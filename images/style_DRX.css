@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #ea6157;
+    background: #005b80;
     background-image: url(DRXBG.jpg);
     width: 100%;
     background-size: cover;
@@ -178,8 +178,6 @@ html {
 
 
 }
-
-
 .DRXnavbar .dropdown {
     overflow: hidden;
 }
@@ -193,7 +191,9 @@ html {
     opacity: 0;
     /* 補上預設透明度0，讓漸入動畫更順暢 */
 }
-
+.DRXnavbar  .dropdown>a{
+    color: #fff !important;
+}
 /* --- PC 版 (寬度 768px 以上)：維持 Hover 展開 --- */
 @media screen and (min-width: 768px) {
     .DRXnavbar .dropdown:hover {
